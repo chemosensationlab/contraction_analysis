@@ -267,7 +267,7 @@ for start,stop in [0,1200],[1200,2400],[2400,3600]:
     start=start
     stop=stop
     num=0
-    data=pd.read_excel(r"Y:\File transfer\Christopher_transfer\von Jerome\Uterus_V.Jetztaberwirklich\VU\output.xlsx")
+    data=pd.read_excel(r"Y:\File transfer\Christopher_transfer\von Jerome\VU\output.xlsx")
     names=data.columns
     threshold_high=60
     threshold_low=15
